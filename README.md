@@ -20,14 +20,16 @@ multiHandler.Start();
 ```cs
 while (true)
 {
-  if (singleHandler.GetBindState())
-  {
-      Console.WriteLine("singleHandler toggled")
-  } else if (mutltiHandler.GetBindState())
-  {
-      Console.WriteLine("multiHandler toggled");
-  }
-  Thread.Sleep(50)
+    if (singleHandler.GetBindState())
+    {
+        Console.WriteLine("singleHandler toggled");
+    }
+    else if (multiHandler.GetBindState())
+    {
+        Console.WriteLine("multiHandler toggled");
+    }
+    Thread.Sleep(50);
 }
+
 ```
 
