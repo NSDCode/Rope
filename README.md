@@ -1,5 +1,5 @@
 # Rope
-__A micro .NET Framework Lirbary to handle external keybinds using Threads__
+__A micro .NET Framework Library to handle external keybinds using Threads__
 
 ## Example
 ### Declaring an single handler
